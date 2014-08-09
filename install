@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Pull docker image
+docker pull dockerfile/nodejs
