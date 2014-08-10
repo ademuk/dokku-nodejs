@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Pull docker image
 docker pull dockerfile/nodejs
