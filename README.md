@@ -1,7 +1,9 @@
 dokku-nodejs
 ----------------------
 
-Project: https://github.com/progrium/dokku
+dokku-nodejs is a plugin for [dokku][dokku] that injects node, and installs packages specified within your dokku app's package.json file.
+
+Suitable for non node.js apps with Javascript SPAs. Doesn't require modification to your buildpack (Python, Ruby, etc.).
 
 Installation
 ------------
