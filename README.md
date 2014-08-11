@@ -13,6 +13,12 @@ git clone https://github.com/ademuk/dokku-nodejs nodejs
 dokku plugins-install
 ```
 
+NPM Scripts
+-----------
+
+There is a known issue whereby npm scripts are not executed due to dokku running as root.
+[See issue here for a solution](https://github.com/progrium/dokku/wiki/Troubleshooting).
+
 ## License
 
 The MIT License (MIT)
